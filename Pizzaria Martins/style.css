@@ -1,0 +1,85 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5e0303a8
+}
+
+header{
+    background-color: #2222228c;
+    color: white;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: flex;
+    gap: 15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.produto{
+    background-color:white;
+    width: 270px; /*largura do card*/
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.produto img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.produto p{
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.produto h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.cardapio{
+    display: flex;
+    flex-wrap: wrap; /*Permite quebrar linha*/
+    gap: 20px; /*Espaçamento entre os cards*/
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.botao button{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #f15d5da8;
+}
+
+
+.botao{
+text-align: center;
+}
+
+.banner img{
+    border-radius: 30px;
+}
+
+.banner{
+    text-align: center;
+}
+
+
+button:hover{
+background-color: #f15d5da8;
+text-decoration: underline;
+}
